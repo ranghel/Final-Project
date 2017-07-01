@@ -1,6 +1,6 @@
-# Final Project
+# Helping-Hand
 
-**Fertility Drugs Donation Program** is designed to help those who have to pay out of pocket for Infertility treatments and medication. It connects those of you who have left overs (unopened and unused meds to donate), with those in need of medication. Every little bit counts, and every donation is greatly appreciated! Some examples of desired fertility drugs include: 
+Helping-Hand, is a **Fertility Drugs Donation Program** designed to help those who have to pay out of pocket for Infertility treatments and medication. It connects those of you who have left overs (unopened and unused meds to donate), with those in need of medication. Every little bit counts, and every donation is greatly appreciated! Some examples of desired fertility drugs include: 
 * Follistim/Gonal-F 
 * Repronex/Menopur 
 * Ganirelix/Cetrotide 
