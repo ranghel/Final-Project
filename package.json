@@ -24,6 +24,7 @@
     "express-handlebars": "^3.0.0",
     "http": "0.0.0",
     "method-override": "^2.3.9",
+    "mysql": "^2.13.0",
     "sequelize": "^4.2.1",
     "sha1": "^1.1.1",
     "url": "^0.11.0"
