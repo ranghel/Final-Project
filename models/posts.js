@@ -35,17 +35,7 @@ module.exports = function(sequelize, DataTypes) {
         requestStatus: {
             type: DataTypes.BOOLEAN,
             defaultValue: false
-        },
-        createdAt: {
-            allowNull: false,
-            type: Sequelize.DATE,
-            defaultValue: Date.now()
-        },
-        updatedAt: {
-            allowNull: false,
-            type: Sequelize.DATE,
-            defaultValue: Date.now()
-        },
+        }
         UsersId: DataTypes.INTEGER
     },{
         classMethods: {
