@@ -1,0 +1,153 @@
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#maincontainer {
+    margin-top: 50px;
+}
+
+
+nav .nav-wrapper form, nav .nav-wrapper form .input-field {
+    height: 64px !important;
+}
+
+nav .brand-logo {
+    padding-left: 30px;
+}
+
+nav {
+    background-color: #A5D6A7;
+}
+
+.header {
+    padding-top: 40px;
+}
+
+footer.page-footer {
+    margin-top: 0px;
+}
+
+.btn-large {
+    background-color: #E84855;
+}
+
+.btn-large:hover {
+    background-color: #2D3047;
+}
+
+footer.page-footer .footer-copyright {
+    background-color: #2D3047;
+}
+
+.blue {
+    background-color: #A5D6A7;
+}
+
+
+.darkblue {
+    background-color: #2D3047 !important;
+}
+
+.pink-bg {
+    background-color: #A5D6A7;
+}
+
+.pink-text {
+    color: #E84855 !important;
+}
+
+.blueIcon{
+    color: #1b998B !important;
+}
+
+.top-image {
+    height: 650px;
+}
+
+.top-text {
+    padding-top: 125px;
+}
+
+.mid-text {
+    padding-top: 200px;
+}
+
+.modal {
+    width: 40% !important
+}
+
+.swap {
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.swapTitle {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 6.2rem;
+}
+
+#aboutSwap {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#logoClick {
+    cursor: pointer;
+    margin: -30px;
+}
+
+#postAProduct {
+    width: 60% !important
+}
+
+#updateProduct {
+    width: 60% !important
+}
+
+.swapArrow {
+    padding-top: 50px;
+}
+
+.select-wrapper input input.select-dropdown {
+    margin-top: 50px;
+}
+
+blockquote {
+    border-left: 5px solid #1b998B;
+    margin-top: 75px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #E84855;
+    margin-right: 20px;
+    transition: color .3s ease;
+    text-transform: none;
+}
+
+a:hover {
+    transition: color .3s ease;
+}
+
+ul li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+li:hover {
+    background-color: #2D3047;
+    text-align: center;
+}
+
+a {
+    color:#1b998B;
+}
+
+.bluebg {
+    background-image: url("https://raw.githubusercontent.com/kaylaludmila/SwapThing/master/public/css/imgs/bluebg2.jpg");
+}
+

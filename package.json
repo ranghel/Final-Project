@@ -1,0 +1,34 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "As a recent IVF patient, I have found myself with a great quantity of unused fertility medication, which would be such a shame to go to waste since this drugs are so expensive. I've done some research to find an application that connects those with medication left overs with those in need of medication, but except forums and people exchanging emails over these forums, I didn't find such an app. Therefore, I strongly believe that this application will come in handy for the thousands of women undergoing IVF treatments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranghel/Helping-Hands.git"
+  },
+  "author": "Ramona Anghel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranghel/Helping-Hands/issues"
+  },
+  "homepage": "https://github.com/ranghel/Helping-Hands#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie": "^0.3.1",
+    "escape-html": "^1.0.3",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "http": "0.0.0",
+    "method-override": "^2.3.9",
+    "sequelize": "^4.2.1",
+    "sha1": "^1.1.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
