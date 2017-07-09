@@ -1,4 +1,5 @@
-# Helping Hands
+# Helping Hands 
+![Logo](public/css/imgs/logo.png)
 
 As a recent IVF patient, I have found myself with a great quantity of unused fertility medication, which would be such a shame to go to waste since these drugs are so expensive. I've done some research to find an application that connects those with medication left overs with those in need of medication, but except forums and people exchanging emails over these forums, I didn't find such an app. Therefore, I strongly believe that this application will come in handy for the thousands of women undergoing IVF treatments.
 
