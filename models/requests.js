@@ -11,15 +11,17 @@ module.exports = function(sequelize, DataTypes) {
     }, {
         classMethods: {
             associate: function(models) {
-                var Posts = this.sequelize.define('Posts', {}),
-                    Users = this.sequelize.define('Users', {}),
-                    Requests = this.sequelize.define('Requests', {});
+                Requests.belongsTo(models.Posts, {
+                    foreignKey: {
+                        allowNull: false
+                    }
+                });
+                Requests.belongsTo(models.Users, {
+                    foreignKey: {
+                        allowNull: false
+                    }
 
-                Requests.belongsToMany(Users, {through: 'HelpUser'});
-                Users.belongsToMany(Requests, {through: 'HelpUser'});
-
-                Requests.belongsToMany(Posts, {through: 'HelpPost'});
-                Posts.belongsToMany(Requests, {through: 'HelpPost'});
+                });
 
             }
         }

@@ -35,15 +35,16 @@ module.exports = function(sequelize, DataTypes) {
         requestStatus: {
             type: DataTypes.BOOLEAN,
             defaultValue: false
-        }
+        },
         UsersId: DataTypes.INTEGER
     },{
         classMethods: {
             associate: function(models) {
-                var Posts = this.sequelize.define('Posts', {}),
-                    Users = this.sequelize.define('Users', {});
-
-                Posts.belongsTo(Users);
+                Posts.belongsTo(models.Users, {
+                    foreignKey: {
+                        allowNull: false
+                    }
+                });
             }
         }
     });
